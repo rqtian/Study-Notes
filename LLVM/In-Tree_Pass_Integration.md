@@ -1,5 +1,5 @@
 # Abstract
-This note is highly based on article [In-Tree Pass Integration](https://medium.com/@mshockwave/writing-llvm-pass-in-2018-part-iii-d44cd0c2c354) 
+This note is highly based on article [In-Tree Pass Integration](https://medium.com/@mshockwave/writing-llvm-pass-in-2018-part-iii-d44cd0c2c354) ,
 The basic steps of writing a pass can be easily reached from the official [Writing an LLVM Pass](http://llvm.org/docs/WritingAnLLVMPass.html). 
 However, it only introduces how to run the pass with opt. In this note, I will introduce how to integrate the pass in PassManagerBuilder pipeline. With this, clang can automatically call the pass.
 
