@@ -43,7 +43,7 @@ INITIALIZE_PASS_BEGIN(MyNewTry, "my-new-pass begins here", "Some description for
 INITIALIZE_PASS_DEPENDENCY(LoopInfoWrapperPass) // Or whatever your Pass dependencies
 INITIALIZE_PASS_END(MyNewTry, "my-new-pass end here", "Some description for the Pass", false, false)
 ```
-## 5. Put your initializeXXXPassPass in the right place.
+## 5. Put your initializeXXXXPass in the right place.
 ### 5.1 In the source code file of the pass: `llvm/lib/transforms/scalar/MyNewTry.cpp`
 Add the following code in the constructor of the pass in the pass's source code file. 
 
