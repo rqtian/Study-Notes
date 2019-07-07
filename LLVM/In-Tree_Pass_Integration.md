@@ -109,4 +109,6 @@ void PassManagerBuilder::populateLTOPassManager(legacy::PassManagerBase &PM) {
   PM.add(createMyNewTry());
   ...
 ```
+# Note:
+The above steps is applied successfully in `LLVM 8.0`, `LLVM 9.0`.
 # Done
